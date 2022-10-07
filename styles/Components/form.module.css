@@ -1,0 +1,101 @@
+.form{
+    /* padding: 32px 52px 100px 502px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* padding: 50px; */
+    margin-top: -300px;
+   
+}
+
+.input-group{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    padding-bottom: 32px;
+}
+.input{
+    height: 50px;
+    background: #FFFFFF;
+    border: 1px solid #C3C5DC;
+    border-radius: 8px;
+    outline: none;
+}
+
+.label{
+    font-family: 'Sora';
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.input,
+.textarea::placeholder{
+  padding-left: 24px;
+  font-weight: 300;
+  font-size: 18px;
+}
+ 
+.textarea{
+   
+    height: 190px;
+    outline: none;
+}
+
+.input-button{
+    background: #55A5DB;
+    border-radius: 8px;
+    width: 300px;
+    margin-bottom: 50px;
+}
+
+@media screen and (min-width: 600px) {
+.form{
+    padding: 32px 502px 100px 502px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: -400px;
+}
+
+.input-group{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    padding-bottom: 32px;
+}
+.input{
+    height: 50px;
+    border: 1px solid #C3C5DC;
+    border-radius: 8px;
+    outline: none;
+}
+
+.label{
+    font-family: 'Sora';
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.input,
+.textarea::placeholder{
+  padding-left: 24px;
+  font-weight: 300;
+  font-size: 18px;
+}
+ 
+.textarea{
+    height: 190px;
+    outline: none;
+}
+
+.input-button{
+    background: #55A5DB;
+    border-radius: 8px;
+    width: 500px;
+    margin: 0%;
+    
+}
+
+}

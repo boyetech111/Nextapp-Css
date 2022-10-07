@@ -1,0 +1,164 @@
+.workcontain{
+    width: 100%;
+    margin-top: 20%;
+    height: 43rem;
+}
+
+
+.productdescription{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 30px 32px 30px;
+    font-family: 'Sora';
+    
+}
+
+.case{
+    font-weight: 700;
+    font-size: 24px;
+    color: #25284B;
+}
+
+.view{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    color: #25284B;
+}
+
+.productdetails{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* gap: 10px; */
+    padding: 16px 50px 0px  50px;
+}
+
+.productcard{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 350px;
+    /* margin-bottom: 64px; */
+    font-family: 'Sora';
+    
+}
+
+.productcard img{
+    width: 100%;
+    padding: 71px 50px 0px 50px;
+}
+
+.card{
+    background: #F3F8FC;
+    border-radius: 16px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.heading{
+    font-weight: 600;
+    font-size: 24px;
+    color: #111222;
+    /* margin-bottom: 0px; */
+}
+
+.subheading{
+    font-weight: 300;
+    font-size: 14px;
+    color: #111222;
+    /* margin-top: -8px; */
+    /* padding-top: -10px; */
+}
+
+
+
+@media screen and (min-width: 600px) {
+
+.productdescription{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 24px 128px;
+    font-family: 'Sora';
+    /* margin-top: 0px; */
+    /* margin-bottom: 0px; */
+}
+
+.workcontain{
+    width: 100%;
+    margin-top: 0px;
+    /* height: 1300px; */
+}
+
+
+/* .productdescription{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 128px 128px 32px 128px;
+    font-family: 'Sora';
+} */
+
+.case{
+    font-weight: 700;
+    font-size: 48px;
+    color: #25284B;
+}
+
+.view{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    color: #25284B;
+}
+
+.productdetails{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 100px;
+    padding: 32px 128px 20px  128px;
+}
+
+.productcard{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 350px;
+    margin-bottom: 64px;
+    font-family: 'Sora';
+    
+}
+
+.productcard img{
+    width: 100%;
+    padding: 71px 50px 0px 50px;
+}
+
+.card{
+    background: #F3F8FC;
+    border-radius: 16px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.heading{
+    font-weight: 600;
+    font-size: 24px;
+    color: #111222;
+    /* margin-bottom: 20px; */
+}
+
+.subheading{
+    font-weight: 300;
+    font-size: 14px;
+    color: #111222;
+    font-family: 'Sora';
+}
+
+
+}
