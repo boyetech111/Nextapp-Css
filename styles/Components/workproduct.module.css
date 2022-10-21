@@ -1,6 +1,6 @@
 .workcontain{
     width: 100%;
-    margin-top: 20%;
+    margin-top: -20;
     height: 43rem;
 }
 
@@ -89,7 +89,7 @@
 
 .workcontain{
     width: 100%;
-    margin-top: 0px;
+    margin-top: -30px;
     /* height: 1300px; */
 }
 
@@ -121,7 +121,7 @@
     justify-content: center;
     flex-direction: row;
     gap: 100px;
-    padding: 32px 128px 20px  128px;
+    padding: 32px 128px 10px  128px;
 }
 
 .productcard{
