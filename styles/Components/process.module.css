@@ -7,7 +7,8 @@
   display: flex;
   flex-direction: column;
   font-family: 'Sora';
-  padding: 12px 100px  32px 50px;
+  /* padding: 12px 100px  32px 50px; */
+  padding: 0px 40px;
 }
 
 .processtitle{
@@ -15,23 +16,23 @@
     text-align: center;
     margin-top: 25px;
     font-weight: 700;
-    font-size: 24px;
+    font-size: 34px;
     color: #25284B;
-    width: 380px;
+    padding-bottom: 10px;
 }
 
 .processinfo{
     display: flex;
-    width: 350px;
     font-weight: 300;
-    font-size: 20px;
+    font-size: 16px;
 }
 .servicecategory{
     display: flex;
     align-items: center;
     flex-direction: column;
     justify-content: space-between;
-    padding: 12px 100px 32px 0px;
+    padding: 12px 88px 32px 0px;
+    /* padding: 0 80px; */
     gap: 70px;
     margin-left: 100px;
 }
@@ -41,18 +42,16 @@
     height: 257px
 }
 .servicetitle{
-    width: 380px;
-    height: 53px;
     font-weight: 600;
-    font-size: 24px;
+    font-size: 16px;
     color: #247AB5;
+    padding-bottom: 10px;
 }
 .serviceinfo{
-    width: 80%;
-    height: 112px;
     font-family: 'Sora';
     font-weight: 300;
     font-size: 16px;
+    width: 350px;
 }
 
 @media screen and (min-width: 600px) {

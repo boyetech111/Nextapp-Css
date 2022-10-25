@@ -1,21 +1,23 @@
 .headercontainer{
-    width: 100%;
+    width: 500px;
     height: 100%;
     background: rgba(255, 255, 255, 0.6);
     background-image: url("../../public/images/Group1.png");
 }
 .headdescription{
     display: flex;
-    flex-direction: column;
+    /* flex-direction: column; */
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
     font-family: 'Sora';
+    padding: 100px 32px;
     gap: 16px;
 }
 .headline{
     display: flex;
-    text-align: center;
     margin-top: 100px;
+    text-align: center;
     font-weight: 700;
     font-size: 40px;
     color: #25284B;
@@ -24,22 +26,23 @@
     display: flex;
     text-align: center;
     align-self: center;
-    font-weight: 300;
-    font-size: 16px;
+    font-weight: 400;
+    font-size: 24px;
     color: #25284B;
+    padding-top: 18px;
 }
 .fullbutton{
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 5px 40px;
-    gap: 10px;
+    /* padding: 10px 40px; */
+    margin-top: -70px;
     /* margin-top: 5%; */
 }
 .section{
     display: flex;
     margin-top: 100px;
-    /* text-align: center; */
+    padding-right: 36px;
     align-items: center;
     flex-direction: column;
 }
@@ -47,13 +50,15 @@
     width: 374px;
     height: 40px;
     font-family: 'Sora';
-    font-weight: 600;
+    font-weight: 700;
     font-size: 30px;
     color: #111222;
+    padding-bottom: 12px;
 }
 
 .info{
     font-family: 'Sora';
+    font-weight: 400;
     font-size: 16px;
     width: 370px;
     height: 112px;
@@ -67,7 +72,6 @@
     background: rgba(255, 255, 255, 0.6);
     background-image: url("../../public/images/Group1.png");
     background-size: cover;
-
 }
 
 .headdescription{
@@ -85,7 +89,7 @@
     text-align: center;
     margin-top: 128px;
     font-weight: 700;
-    font-size: 96px;
+    font-size: 95px;
     color: #25284B;
 }
 
@@ -95,7 +99,7 @@
     margin-top: 30px;
     align-items: center;
     font-weight: 300;
-    font-size: 33px;
+    font-size: 32px;
     color: #25284B;
 }
 
